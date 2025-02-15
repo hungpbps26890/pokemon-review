@@ -1,5 +1,6 @@
 package com.pokemonreview.api;
 
+import com.pokemonreview.api.dto.PokemonDto;
 import com.pokemonreview.api.models.Pokemon;
 import com.pokemonreview.api.models.Review;
 
@@ -16,6 +17,13 @@ public class TestDataUtil {
         return Pokemon.builder()
                 .name("Charmander")
                 .type("Fire")
+                .build();
+    }
+
+    public static PokemonDto pikachuDto() {
+        return PokemonDto.builder()
+                .name("Pikachu")
+                .type("Electric")
                 .build();
     }
 
