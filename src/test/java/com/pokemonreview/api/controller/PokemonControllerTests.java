@@ -35,6 +35,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class PokemonControllerTests {
 
     public static final String BASED_URL = "/api/pokemon";
+
     @Autowired
     private MockMvc mockMvc;
 
